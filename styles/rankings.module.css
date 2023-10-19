@@ -1,0 +1,11 @@
+.th {
+    @apply p-3 text-gray-700 font-medium tracking-wide text-left
+}
+
+.td {
+    @apply p-3 text-gray-700 font-medium
+}
+
+.td_link {
+    @apply p-3 text-blue-500 font-medium w-fit hover:text-blue-800
+}

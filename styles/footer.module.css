@@ -1,0 +1,15 @@
+.footer {
+    @apply w-full bg-blue-950 border-t border-blue-950 text-sm text-white
+}
+
+.footer_home {
+    @apply w-full bg-white border-t border-gray-300 text-sm
+}
+
+.footer_list {
+    @apply space-y-3 text-gray-300
+}
+
+.footer_list_home {
+    @apply space-y-3 text-gray-500
+}

@@ -1,0 +1,43 @@
+.navbar {
+    @apply sticky top-0 z-20 bg-blue-950
+}
+
+.navbar_home {
+    @apply sticky top-0 z-20 bg-white
+}
+
+.navbar_scrolled {
+    @apply sticky top-0 z-20 bg-white border-b border-gray-300
+}
+
+.navbar_brand {
+    @apply font-bold text-xl text-white
+}
+
+.navbar_brand_home {
+    @apply font-bold text-xl
+}
+
+.nav_menu {
+    @apply inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-gray-800
+}
+
+.nav_menu_home {
+    @apply inline-flex items-center justify-center p-2 rounded-md text-black hover:bg-gray-200
+}
+
+.navbar_button {
+    @apply text-sm text-gray-300 font-medium px-3 py-2 rounded-md ease-in duration-150 hover:bg-gray-800 hover:text-white
+}
+
+.navbar_button_home {
+    @apply text-sm font-medium px-3 py-2 rounded-md ease-in duration-150 hover:bg-gray-200
+}
+
+.nav_button_collapsed {
+    @apply text-gray-300 block w-full px-3 py-2 rounded-md text-base font-medium ease-in duration-150 hover:bg-gray-800 hover:text-white
+}
+
+.nav_button_collapsed_home {
+    @apply block w-full px-3 py-2 rounded-md font-medium ease-in duration-150 hover:bg-gray-200
+}

@@ -1,0 +1,7 @@
+.sidebar_button {
+    @apply text-gray-600 font-medium px-6 py-2 w-full text-start rounded-md ease-in duration-150 hover:bg-gray-200 hover:text-black
+}
+
+.active_button {
+    @apply font-medium px-6 py-2 w-full text-start rounded-md bg-gray-300
+}
